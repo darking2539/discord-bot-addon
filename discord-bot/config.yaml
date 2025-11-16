@@ -1,19 +1,9 @@
 name: "Discord Bot"
-version: "latest"
-slug: "discord_bot"
-description: "Discord bot running as a Home Assistant add-on"
-url: "https://github.com/darking2539/discord-bot-addon"
-
-arch:
-  - amd64
-  - aarch64
-  - armv7
+slug: discord_bot
+version: "1.0.0"
 
 startup: services
 boot: auto
-init: false
-
-image: "ghcr.io/bestsvt/discord-bot"
 
 options:
   DISCORD_TOKEN: ""
@@ -26,3 +16,6 @@ schema:
   CLIENT_ID: str
   CHANNEL_ID: str
   LOG_CHANNEL_ID: str
+
+build:
+  dockerfile: Dockerfile
