@@ -26,3 +26,9 @@ schema:
   CLIENT_ID: str
   CHANNEL_ID: str
   LOG_CHANNEL_ID: str
+
+environment:
+  DISCORD_TOKEN: "{options.DISCORD_TOKEN}"
+  CLIENT_ID: "{options.CLIENT_ID}"
+  CHANNEL_ID: "{options.CHANNEL_ID}"
+  LOG_CHANNEL_ID: "{options.LOG_CHANNEL_ID}"
