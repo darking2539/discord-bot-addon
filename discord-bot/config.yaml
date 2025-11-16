@@ -13,7 +13,7 @@ startup: services
 boot: auto
 init: false
 
-image: "ghcr.io/bestsvt/discord-bot:latest"
+image: "ghcr.io/bestsvt/discord-bot"
 
 options:
   DISCORD_TOKEN: ""
