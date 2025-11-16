@@ -1,5 +1,5 @@
 name: "Discord Bot"
-version: "1.0.0"
+version: "latest"
 slug: "discord_bot"
 description: "Discord bot running as a Home Assistant add-on"
 url: "https://github.com/darking2539/discord-bot-addon"
